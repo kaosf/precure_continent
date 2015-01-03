@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'precure/continent/version'
+require 'precure-continent/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "precure-continent"
-  spec.version       = Precure::Continent::VERSION
+  spec.version       = PrecureContinent::VERSION
   spec.authors       = ["ka"]
   spec.email         = ["ka.kaosf@gmail.com"]
   spec.summary       = %q{TODO: Write a short summary. Required.}
